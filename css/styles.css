@@ -710,14 +710,21 @@ body {
 
 .checkbox-img {
     position: absolute;
-    fill: #5f4646;
+    fill: #fff;
+    background-color: var(--primary-color);
+    top: -1px;
+    left: -1px;
+    opacity: 0;
 }
 
 .hidden-checkbox {
     display: none;
 }
 
-.hidden-checkbox:checked + .custom-checkbox > .custom-checkbox-img {
+.hidden-checkbox:checked
+    + .acceptation-box
+    > .custom-checkbox
+    > .custom-checkbox-img {
     opacity: 1;
 }
 
