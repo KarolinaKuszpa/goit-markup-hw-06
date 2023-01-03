@@ -656,7 +656,7 @@ body {
     margin-top: 12px;
     position: relative;
     display: block;
-    margin-bottom: 10px;
+    margin-top: 12px;
 }
 
 .comment {
@@ -666,6 +666,7 @@ body {
     height: 120px;
     padding-left: 14px;
     padding-top: 12px;
+    font-size: 12px;
 }
 
 .acceptation-text {
@@ -682,8 +683,22 @@ body {
     text-align: center;
     gap: 9px;
     margin-top: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
+
+.user-name-placeholder {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1, 171;
+    letter-spacing: 0, 01em;
+    color: rgba(117, 117, 117, 1);
+    margin-top: 12px;
+    position: relative;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+
 .button-form {
     width: 200px;
     height: 50px;
@@ -721,10 +736,7 @@ body {
     display: none;
 }
 
-.hidden-checkbox:checked
-    + .acceptation-box
-    > .custom-checkbox
-    > .custom-checkbox-img {
+.hidden-checkbox:checked + .acceptation-box > .custom-checkbox > .checkbox-img {
     opacity: 1;
 }
 
@@ -762,6 +774,7 @@ body {
 }
 .input-box {
     position: relative;
+    margin-top: 4px;
 }
 
 .svg-form {
