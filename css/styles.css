@@ -604,8 +604,8 @@ body {
     line-height: 1.142;
     letter-spacing: 0.03em;
     align-items: center;
+    margin-top: 12px;
     margin-bottom: 20px;
-    padding: 16px;
 }
 
 .sign-in-box {
