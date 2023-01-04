@@ -623,6 +623,7 @@ body {
     height: 50px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    border: none;
 }
 
 .button-subscribe > .button-sign-up {
@@ -657,6 +658,7 @@ body {
     position: relative;
     display: block;
     margin-top: 12px;
+    color: #757575;
 }
 
 .comment {
@@ -667,6 +669,7 @@ body {
     padding-left: 14px;
     padding-top: 12px;
     font-size: 12px;
+    color: #757575;
 }
 
 .acceptation-text {
@@ -674,7 +677,6 @@ body {
     font-size: 14px;
     line-height: 1, 714;
     letter-spacing: 0, 03em;
-    color: #757575;
 }
 
 .acceptation-box {
@@ -697,6 +699,11 @@ body {
     display: block;
     margin-top: 10px;
     margin-bottom: 4px;
+    color: #757575;
+}
+
+::placeholder {
+    color: rgba(117, 117, 117, 0.5);
 }
 
 .button-form {
@@ -762,7 +769,10 @@ body {
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     outline: none;
+    padding-left: 48px;
+    display: flex;
 }
+
 .form-input:focus {
     border-color: #2196f3;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -778,14 +788,10 @@ body {
 }
 
 .svg-form {
-    top: 0;
-    left: 0;
-    position: absolute;
+    top: 15px;
     left: 15px;
-    top: 14px;
-    bottom: 15px;
+    position: absolute;
 }
-
 .modal {
     width: 528px;
     height: 581px;
