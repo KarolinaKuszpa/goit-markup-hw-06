@@ -605,6 +605,7 @@ body {
     letter-spacing: 0.03em;
     align-items: center;
     margin-bottom: 20px;
+    padding: 16px;
 }
 
 .sign-in-box {
